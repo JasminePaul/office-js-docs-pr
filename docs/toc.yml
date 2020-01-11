@@ -275,11 +275,6 @@
     - name: Publish add-ins to a SharePoint app catalog
       href: publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog.md
 
-  - name: Patterns and practices
-    items:
-    - name: Share code from VSTO add-in to Office web add-in
-      href: tutorials/migrate-vsto-to-office-web-add-in-shared-code-library-tutorial.md
-
   - name: Reference
     items:
     - name: API reference documentation
@@ -610,9 +605,6 @@
       displayName: Excel, Custom Functions
     - name: Authentication
       href: excel/custom-functions-authentication.md
-      displayName: Excel, Custom Functions
-    - name: Batching
-      href: excel/custom-functions-batching.md
       displayName: Excel, Custom Functions
     - name: Debugging
       href: excel/custom-functions-debugging.md
@@ -1006,3 +998,16 @@
     - name: Use search options to find text in your Word add-in
       href: word/search-option-guidance.md
       displayName: Word
+
+- name: Patterns and practices
+  items:
+  - name: Batching
+    href: pnp/custom-functions-batching.md
+    displayName: Excel, Custom Functions
+  - name: Integrate an Azure function with your Excel custom function
+    href: pnp/integrate-azure-function-with-custom-function.md
+    displayName: Excel, Custom Functions
+  - name: Share code from VSTO add-in to Office web add-in
+    href: pnp/migrate-vsto-to-office-web-add-in-shared-code-library-tutorial.md
+  - name: Techniques to access data from an Office Add-in when offline
+    href: pnp/access-data-from-office-add-in-when-offline.md
